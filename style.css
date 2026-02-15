@@ -117,3 +117,24 @@ a {
 .second-container {
 	background-color: white;
 }
+
+.information-section {
+    display: flex;
+    gap: 26px;
+    justify-content: center;
+}
+
+.info-card {
+    display: flex;
+    flex-flow: column wrap;
+    width: 200px;
+    text-align: center;
+}
+
+.info-card img {
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    margin-bottom: 16px;
+    border: black solid 1px;
+}
