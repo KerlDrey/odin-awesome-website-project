@@ -7,8 +7,14 @@ body {
 
 a {
     text-decoration: none;
-    font-size: 18px;
-    color: #e5e7eb;
+    display: inline-block;
+    transition: transform 0.2s ease, color 0.2s ease, opacity 0.2s ease;
+}
+
+a:hover {
+    color: #00adb5; /* Можно добавить акцентный цвет */
+    transform: translateY(-3px); /* Ссылка «подпрыгивает» вверх */
+    opacity: 0.8;
 }
 
 ul {
@@ -23,10 +29,15 @@ ul {
 .first-container {
     background-color: #1F2937;
     width: 100%;
-    height: 400px;
     display: flex;
     flex-flow: column nowrap;
-    padding: 10px 100px 30px;
+    padding: 10px 200px 80px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
 }
 
 .header-logo {
@@ -36,7 +47,59 @@ ul {
     padding: 0;
 }
 
-.header {
+.first-wrap {
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.hero-container {
+    padding: 5px 0 0;
+}
+
+.hero-main-text {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+    margin: 0;
+    padding: 0;
+}
+
+.hero-secondary-text {
+    margin: 5px 0px 30px;
+    padding: 0;
+}
+
+.hero-secondary-text, a {
+    font-size: 18px;
+    color: #cdcfd2;
+}
+
+#sign-up-button-one {
+    background-color: #3882f6;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 6px;
+    font-weight: 700;
+    font-size: 18px;
+    color: #eff2f4;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    box-shadow: 0 4px 0px #1e4eb8
+}
+
+#sign-up-button-one:hover {
+    background-color: #3273da;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 0px #1e4eb8;
+}
+
+#sign-up-button-one:active {
+    transform: translateY(2px); 
+    box-shadow: 0 2px 0px #1e4eb8;
+}
+
+#first-img {
+    height: 300px;
+    width: auto;
 }
