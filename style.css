@@ -213,3 +213,13 @@ a {
 	border: #fff solid 3px;
 	padding: 4px 26px;
 }
+
+/* Style for footer */
+.footer {
+	background-color: #202747;
+	color: #fff;
+	display: flex;
+	justify-content: center;
+	padding: 40px 0;
+	font-size: 18px;
+}
