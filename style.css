@@ -31,7 +31,8 @@ ul {
 
 .first-container,
 .second-container,
-.third-container {
+.third-container,
+.fourth-comtainer {
 	display: flex;
 	flex-flow: column nowrap;
 	padding: 10px 200px 80px;
@@ -157,10 +158,58 @@ a {
 /* Style for 3rd section */
 .third-container {
     background-color: #e5e7eb;
+    padding: 80px 360px 80px;;
 }
 
 .quote {
     font-size: 36px;
     font-weight: 300;
     color: #1f2937;
+    margin: 0;
+}
+
+.quote-author {
+    font-size: 25px;
+    margin: 0 1.5em 0 auto;
+}
+
+/* Style for 4th container */
+.fourth-comtainer {
+    background-color: #fff;
+	padding: 100px 200px 100px;
+}
+
+.banner {
+    background-color: #1a85dd;
+    border-radius: 10px;
+    padding: 50px 150px;
+    display: flex;
+    align-items: center;
+	justify-content: space-between;
+}
+
+.big-text {
+    font-size: 25px;
+    font-weight: 600;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.small-text {
+    font-size: 18px;
+	font-weight: 300;
+    margin: 0;
+    padding: 0;
+	color: #fff;
+}
+
+.sign-up-new {
+	font-size: 20px;
+	font-weight: 400;
+	color: #fff;
+	background-color: #1a85dd;
+	border-radius: 8px;
+	border: #fff solid 3px;
+	padding: 4px 26px;
 }
