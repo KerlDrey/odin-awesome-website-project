@@ -118,6 +118,10 @@ a {
 	background-color: white;
 }
 
+.second-container h1 {
+    text-align: center;
+}
+
 .information-section {
     display: flex;
     gap: 26px;
@@ -136,5 +140,5 @@ a {
     height: 200px;
     border-radius: 20px;
     margin-bottom: 16px;
-    border: black solid 1px;
+    border: #3882f6 solid 5px;
 }
