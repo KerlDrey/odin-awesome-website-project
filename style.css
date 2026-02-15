@@ -29,14 +29,19 @@ ul {
 	gap: 16px;
 }
 
-/* Style for the 1st container */
 .first-container,
-.second-container {
+.second-container,
+.third-container {
 	display: flex;
 	flex-flow: column nowrap;
 	padding: 10px 200px 80px;
 }
 
+
+
+
+
+/* Style for the 1st container */
 .first-container {
 	background-color: #1f2937;
 }
@@ -45,7 +50,7 @@ ul {
 	display: flex;
 	justify-content: space-between;
 	margin-bottom: 80px;
-    padding: 10px 0;
+	padding: 10px 0;
 }
 
 .header-logo {
@@ -113,32 +118,49 @@ a {
 	width: auto;
 }
 
+
+
+
 /* Style for second section */
 .second-container {
 	background-color: white;
 }
 
 .second-container h1 {
-    text-align: center;
+	text-align: center;
 }
 
 .information-section {
-    display: flex;
-    gap: 26px;
-    justify-content: center;
+	display: flex;
+	gap: 36px;
+	justify-content: center;
 }
 
 .info-card {
-    display: flex;
-    flex-flow: column wrap;
-    width: 200px;
-    text-align: center;
+	display: flex;
+	flex-flow: column wrap;
+	width: 200px;
+	text-align: center;
 }
 
 .info-card img {
-    width: 200px;
-    height: 200px;
-    border-radius: 20px;
-    margin-bottom: 16px;
-    border: #3882f6 solid 5px;
+	width: 200px;
+	height: 200px;
+	border-radius: 20px;
+	margin-bottom: 16px;
+	border: #3882f6 solid 5px;
+}
+
+
+
+
+/* Style for 3rd section */
+.third-container {
+    background-color: #e5e7eb;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 300;
+    color: #1f2937;
 }
